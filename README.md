@@ -106,7 +106,7 @@ the original array has all entries of 0, but pieces will be added in a horizonta
  
 
 Beginning array:                         Array for each piece:
-[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0],         Five Piece [1, 1, 1, 1, 1]
+[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0],         Five Piece [1, 1, 1, 1, 1]               
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],          Four Piece [1, 1, 1, 1]
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],          Three Piece [[1, 1, 1, 1], [1, 1, 1, 1]]
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],          Two Piece [1, 1]
@@ -119,10 +119,10 @@ Beginning array:                         Array for each piece:
 
 
 Example array after piece implementation (computer's board):          
-[[1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
-[0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-[0, 0, 0, 0, 1, 1, 1, 1, 0, 0],
-[0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+[[1, 1, 1, 0, 0, 0, 0, 0, 0, 0],                                    
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0],          
+[0, 0, 0, 0, 1, 1, 1, 1, 0, 0],          
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0],         
 [0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
 [0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
 [0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
@@ -132,10 +132,10 @@ Example array after piece implementation (computer's board):
 
 Example array after some guesses (computer's board):
 
-[[X, X, X, 0, 0, M, 0, M, 0, 0],
-[0, M, 0, 0, 0, 0, 0, 0, 0, 0],
-[0, 0, 0, 0, 1, 1, 1, 1, 0, 0],
-[0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+[[X, X, X, 0, 0, M, 0, M, 0, 0],                                    
+[0, M, 0, 0, 0, 0, 0, 0, 0, 0],          
+[0, 0, 0, 0, 1, 1, 1, 1, 0, 0],          
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0],         
 [0, M, 1, 0, 0, 0, 0, M, 0, 0],
 [0, 0, 1, 0, 0, 0, 0, X, M, 0],
 [0, 0, 1, 0, 0, 0, 0, X, 0, 0],
@@ -193,4 +193,4 @@ will also be changed to X on the computer's board.
 Othernotes:
 
 One thing that might be useful is finding a way to tell the user when they sink a ship. For example, if they have three pieces in a row as X, they may not know if that is a three
-piece ship they just sunk, or part of another, bigger ship. For now, I am starting with this, but I hope to be able to implement this useful part into my program later on.  
+piece ship they just sunk, or part of another, bigger ship. For now, I am starting with this, but I hope to be able to implement this useful part into my program later on. 
